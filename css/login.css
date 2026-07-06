@@ -1,0 +1,53 @@
+/*전체 페이지 기본 설정*/
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*로그인 박스 스타일*/
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* 제목 */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+/* 입력 필드 */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+}
+
+/* 로그인 버튼 */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* 로그인 버튼 호버 효과 */
+.login-container button:hover {
+    background-color: #74b9ff;
+}
+
